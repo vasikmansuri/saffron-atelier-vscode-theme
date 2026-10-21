@@ -1,0 +1,39 @@
+{
+  "name": "saffron-atelier",
+  "displayName": "Saffron Atelier",
+  "description": "A custom warm cream and beige VS Code theme with muted olive and terracotta accents.",
+  "version": "1.1.0",
+  "publisher": "vasikmansuri",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Saffron Atelier",
+        "uiTheme": "vs",
+        "path": "./themes/saffron-atelier-color-theme.json"
+      }
+    ]
+  },
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "light theme",
+    "cream",
+    "beige",
+    "warm",
+    "terracotta"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vasikmansuri/saffron-atelier-vscode-theme.git"
+  },
+  "galleryBanner": {
+    "color": "#F0E9DD",
+    "theme": "light"
+  }
+}
