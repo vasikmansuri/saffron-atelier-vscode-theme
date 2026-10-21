@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="56" fill="#F0E9DD"/>
+  <rect x="10" y="10" width="236" height="236" rx="48" fill="#FBF7EF" stroke="#D8CDBB" stroke-width="3"/>
+  <g transform="translate(128 118)">
+    <g fill="#A86F4D">
+      <ellipse rx="15" ry="52" transform="rotate(0) translate(0 -38)"/>
+      <ellipse rx="15" ry="52" transform="rotate(60) translate(0 -38)" fill="#C08A5E"/>
+      <ellipse rx="15" ry="52" transform="rotate(120) translate(0 -38)"/>
+      <ellipse rx="15" ry="52" transform="rotate(180) translate(0 -38)" fill="#C08A5E"/>
+      <ellipse rx="15" ry="52" transform="rotate(240) translate(0 -38)"/>
+      <ellipse rx="15" ry="52" transform="rotate(300) translate(0 -38)" fill="#C08A5E"/>
+    </g>
+    <g stroke="#B68A3B" stroke-width="5" stroke-linecap="round">
+      <line x1="0" y1="0" x2="-14" y2="-30"/><line x1="0" y1="0" x2="0" y2="-34"/><line x1="0" y1="0" x2="14" y2="-30"/>
+    </g>
+    <circle r="16" fill="#617D58"/>
+  </g>
+  <text x="128" y="230" text-anchor="middle" font-family="Georgia, serif" font-size="22" letter-spacing="6" fill="#51483D">ATELIER</text>
+</svg>
