@@ -1,5 +1,5 @@
 .git/**
 .gitignore
 *.vsix
-images/screenshot.png
+images/screenshot*.png
 images/icon.svg

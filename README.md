@@ -13,7 +13,16 @@
   <a href="LICENSE"><img src="https://img.shields.io/github/license/vasikmansuri/saffron-atelier-vscode-theme?color=617D58" alt="MIT license"></a>
 </p>
 
-![Saffron Atelier preview](images/screenshot.png)
+![Saffron Atelier: TypeScript](images/screenshot.png)
+
+<details open>
+<summary><b>React / JSX</b></summary>
+
+![Saffron Atelier: JSX](images/screenshot-jsx.png)
+
+</details>
+
+> Previews are rendered with the theme's exact colors and IBM Plex Mono.
 
 ---
 
@@ -60,7 +69,7 @@ You can also install it from the terminal, as shown below for each OS.
 # Optional: makes the `code` command available in your shell.
 # In VS Code: Cmd+Shift+P → "Shell Command: Install 'code' command in PATH"
 
-code --install-extension ~/Downloads/saffron-atelier-1.2.0.vsix
+code --install-extension ~/Downloads/saffron-atelier-1.3.0.vsix
 ```
 
 ### Windows
@@ -68,13 +77,13 @@ code --install-extension ~/Downloads/saffron-atelier-1.2.0.vsix
 In PowerShell (the `code` command is added to PATH by the VS Code installer):
 
 ```powershell
-code --install-extension "$env:USERPROFILE\Downloads\saffron-atelier-1.2.0.vsix"
+code --install-extension "$env:USERPROFILE\Downloads\saffron-atelier-1.3.0.vsix"
 ```
 
 ### Linux
 
 ```bash
-code --install-extension ~/Downloads/saffron-atelier-1.2.0.vsix
+code --install-extension ~/Downloads/saffron-atelier-1.3.0.vsix
 ```
 
 > **VSCodium / Cursor / other VS Code forks:** use `codium --install-extension ...` or `cursor --install-extension ...` instead of `code`.
@@ -87,7 +96,7 @@ Requires [Node.js](https://nodejs.org/) 18+ and Git.
 git clone https://github.com/vasikmansuri/saffron-atelier-vscode-theme.git
 cd saffron-atelier-vscode-theme
 npx @vscode/vsce package
-code --install-extension saffron-atelier-1.2.0.vsix
+code --install-extension saffron-atelier-1.3.0.vsix
 ```
 
 ## Activate the theme
@@ -140,6 +149,12 @@ Restart VS Code after installing the font, then add:
 - **Uninstall:** `code --uninstall-extension vasikmansuri.saffron-atelier`, or use the gear icon on the extension in the Extensions view.
 
 > **Seeing two "Saffron Atelier" entries?** Version 1.0.0 used the publisher `custom-local`. Uninstall it with `code --uninstall-extension custom-local.saffron-atelier`. If it's still listed, delete the `custom-local.saffron-atelier-1.0.0` folder in `~/.vscode/extensions` (Windows: `%USERPROFILE%\.vscode\extensions`).
+
+## Changelog
+
+- **1.3.0**: Bracket-pair colors now match the palette (VS Code's default blue/gold brackets are gone). JSX/HTML tags are terracotta, components are blue, attribute names are gold italic, `{}` expression braces are accented, sticky-scroll and symbol icon colors are set, and activity bar icons have more contrast.
+- **1.2.0**: Extension icon, preview screenshots, install steps for macOS, Windows and Linux.
+- **1.1.0**: Better comment contrast, italic/bold font styles, packaging.
 
 ## License
 
